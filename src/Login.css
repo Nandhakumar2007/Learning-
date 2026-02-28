@@ -1,0 +1,40 @@
+
+body{
+    background-color: bisque;
+}
+.forget{
+  font-size:20px;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+
+}
+.forget:hover{
+    color:#1c6134   ;
+    text-decoration: underline;
+    cursor: crosshair;
+    font-size: 30px;
+    
+}
+button{
+    color:white;
+    width:4%;
+    border:none;
+    background-color: #43b1ff;
+    border-radius: 16px;
+
+
+}
+button:hover{
+    background-color:rgb(184, 184, 37);
+}
+.login-card{
+    border: 1px solid orange;
+    width: 100%;
+    height:60vh;
+    flex-direction: column;
+    justify-content: start;
+}
+.form-control{
+    flex-direction: column;
+}
